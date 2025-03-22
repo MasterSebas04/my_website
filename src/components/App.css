@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Title_Font";
-  src: url("Grotesk.ttf");
+  src: url("/public/Grotesk.ttf");
 }
 
 header {
@@ -40,7 +40,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
-  font-family: "roboto", sans-serif;
+  font-family: "robot", sans-serif;
 }
 
 .about{
