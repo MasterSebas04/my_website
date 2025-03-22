@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "Title_Font";
-  src: url("/public/Grotesk.ttf");
-}
+
 
 header {
   display: flex;
@@ -9,7 +6,7 @@ header {
   align-items: center;
   background-color: white;
   color: black;
-  font-family: "Title_Font", sans-serif;
+  /*font-family: "Title_Font", sans-serif;*/
   border-bottom: 1.5px solid black;
   font-size: 15pt;
 }
@@ -24,7 +21,7 @@ h2{
 }
 
 .subheader{
-  font-family: "Title_Font", sans-serif;
+  /*font-family: "Title_Font", sans-serif;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -40,7 +37,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
-  font-family: "robot", sans-serif;
+  /*font-family: "robot", sans-serif;*/
 }
 
 .about{
